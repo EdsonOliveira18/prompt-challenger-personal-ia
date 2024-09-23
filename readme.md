@@ -11,27 +11,26 @@
 </p>
 
 <p align="center">
-  <h3 align="center">🏋️‍♂️ Assistente de Personal Trainer - Gerador de Treino Ideal</h3>
-Este projeto é um desafio de Prompt Engineer, onde o objetivo é criar um prompt que ajuda a montar o treino ideal para cada combinação de fatores, como biotipo corporal, disponibilidade de tempo e tipo de exercícios preferidos. O assistente de personal trainer gerado por esse prompt será capaz de personalizar os treinos de acordo com as características e necessidades do usuário.
-O projeto deve ser feito utilizando as boas práticas de prompt engineer.
+  <h3 align="center">🏋️‍♂️ Assistente de Personal Trainer - Gerador de Treino e Alimentação Ideais</h3>
+Este projeto é um desafio de Prompt Engineering, onde o objetivo é criar um prompt que ajude a montar o treino e o plano alimentar ideais para cada combinação de fatores, como biotipo corporal, disponibilidade de tempo, tipo de exercícios preferidos e objetivos nutricionais. O assistente será capaz de personalizar tanto os treinos quanto a alimentação com base nas características e necessidades do usuário, otimizando os resultados.
 </p>
 
 ## 📋 Índice
 
-- [📋 Índice](#-índice)
-- [📝 Introdução](#-introdução)
-- [💪 Biotipos Corporais](#-biotipos-corporais)
-- [📅 Dias Disponíveis para Treino](#-dias-disponíveis-para-treino)
-- [🏋️ Tipos de Exercícios](#️-tipos-de-exercícios)
-- [🛠️ Regras de negócio](#️-regras-de-negócio)
-- [📖 Material de Apoio](#-material-de-apoio)
-- [🎯 Prompt de Resposta Proposto](#-prompt-de-resposta-proposto)
+1. 📝 Introdução  
+2. 💪 Biotipos Corporais  
+3. 📅 Dias Disponíveis para Treino  
+4. 🏋️ Tipos de Exercícios  
+5. 🥗 Alimentação Adequada  
+6. 🛠️ Regras de Negócio  
+7. 📖 Material de Apoio  
+8. 🎯 Prompt de Resposta Propost
 
 ---
 
 ## 📝 Introdução
 
-Este projeto visa criar um assistente de personal trainer automatizado que ajuda a gerar treinos personalizados. O usuário fornecerá informações como o biotipo corporal, a quantidade de dias disponíveis para treinar na semana e o tipo de exercício preferido, e o assistente gerará um plano de treino ideal com base nessas informações.
+Este projeto visa criar um assistente de personal trainer automatizado que não só gera treinos personalizados, mas também oferece orientações alimentares alinhadas aos objetivos do usuário, como ganho de massa muscular, perda de peso ou manutenção. O usuário fornecerá informações como biotipo corporal, dias disponíveis para treino, tipo de exercício preferido e suas metas alimentares. Com essas informações, o assistente gerará um plano de treino e sugestões alimentares personalizadas.
 
 ---
 
@@ -102,12 +101,23 @@ A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão 
 
 ---
 
+## 🥗 Alimentação Adequada  
+A quarta regra adicionada ao assistente é sugerir uma alimentação que otimize os resultados do treino. A dieta será ajustada de acordo com o biotipo, o número de treinos semanais e o tipo de exercícios:
+
+| **Objetivo**           | **Sugestão de Alimentação** |
+| ---------------------- | -------------------------- |
+| Ganho de Massa Muscular | Dieta hipercalórica, com ênfase em proteínas (frango, carne vermelha magra, ovos), carboidratos complexos (arroz integral, batata-doce) e gorduras saudáveis (abacate, castanhas). |
+| Perda de Peso          | Dieta hipocalórica, focada em proteínas magras (peixes, tofu), vegetais ricos em fibras e controle de carboidratos (cortar açúcares refinados). |
+| Manutenção             | Dieta balanceada, com proporções equilibradas de carboidratos, proteínas e gorduras saudáveis, mantendo a ingestão de calorias moderada. |
+
+---
+
 ## 🛠️ Regras de negócio
 
-1. **Identifique seu biotipo corporal** consultando a seção de biotipos.
-2. **Determine quantos dias por semana você pode treinar** e escolha o tipo de treino mais adequado.
-3. **Selecione o tipo de exercício** que prefere realizar e que se encaixa melhor nos seus objetivos.
-4. Use o prompt do assistente para gerar um plano de treino personalizado.
+- Identifique seu biotipo corporal consultando a seção de biotipos.
+- Determine quantos dias por semana você pode treinar e escolha o tipo de treino mais adequado.
+- Selecione o tipo de exercício que prefere realizar e que se encaixa melhor nos seus objetivos.
+- Use o prompt do assistente para gerar um plano de treino personalizado com orientações alimentares adequadas.
 
 ---
 
@@ -121,3 +131,8 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 ---
 
 ## 🎯 Prompt de Resposta Proposto
+Aqui, o prompt será configurado para coletar as informações do usuário e gerar um plano de treino e alimentação personalizados:
+
+**Exemplo de Prompt:**  
+"Com base no seu biotipo corporal [inserir], quantos dias por semana você pode treinar [inserir], e o tipo de exercício que você prefere [inserir], o sistema irá sugerir um treino personalizado e um plano alimentar que maximiza seus resultados."
+
